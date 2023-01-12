@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import { fallbackImage, skeleton } from '../../helpers/utils';
 import LazyImage from '../lazy-image';
-
+//  {TODO : Add background to avatar} 
 const AvatarCard = ({ profile, loading, avatarRing, resume }) => {
   return (
     <div className="card shadow-lg compact bg-base-100">

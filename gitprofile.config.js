@@ -2,62 +2,73 @@
 
 const config = {
   github: {
-    username: 'arifszn', // Your GitHub org/user name. (Required)
+    username: 'jpegpink', // Your GitHub org/user name. (Required)
     sortBy: 'stars', // stars | updated
     limit: 10, // How many projects to display.
     exclude: {
-      forks: false, // Forked projects will not be displayed if set to true.
+      forks: true, // Forked projects will not be displayed if set to true.
       projects: [], // These projects will not be displayed. example: ['my-project1', 'my-project2']
     },
   },
   social: {
-    linkedin: 'ariful-alam',
-    twitter: 'arif_szn',
-    facebook: '',
-    instagram: '',
-    dribbble: '',
-    behance: '',
-    medium: 'arifszn',
-    dev: 'arifszn',
-    stackoverflow: '', // format: userid/username
-    website: 'https://arifszn.com',
-    phone: '',
-    email: 'arifulalamszn@gmail.com',
+    linkedin: 'darian-purry',
+    twitter: 'jpegpinkk',
+    instagram: 'nairadjs',
+    phone: '3108484799',
+    email: 'dpurry23@gmail.com',
   },
   resume: {
     fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      'https://drive.google.com/file/d/13DeLSrOsq0SLZUPmSN5_F09-wlgP1cKb/view?usp=share_link', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'PHP',
-    'Laravel',
+    'Elixir',
+    'Phoenix',
     'JavaScript',
     'React.js',
     'Node.js',
-    'Nest.js',
     'MySQL',
     'PostgreSQL',
     'Git',
-    'Docker',
-    'PHPUnit',
-    'CSS',
-    'Antd',
-    'Tailwind',
+    'Angular',
+    'Electron',
+    'Express',
   ],
   experiences: [
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
-      to: 'Present',
-      companyLink: 'https://example.com',
+      company: 'Vendorful',
+      position: 'Software Engineer',
+      from: 'Jan 2021',
+      to: 'Jan 2022',
     },
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
+      company: 'Vendorful',
+      position: 'Support Engineer',
+      from: 'Nov 2021',
+      to: 'Jan 2022',
+    },{
+      company: 'Believable Creations',
+      position: 'Software Engineer',
+      from: 'Mar 2019',
+      to: 'Sept 2020',
+    },
+    {
+      company: 'Believable Creations',
+      position: 'Software Engineer',
+      from: 'Mar 2019',
+      to: 'Sept 2020',
+    },
+    {
+      company: 'California Resources Corporation',
+      position: 'Software Engineer Intern - Application Development',
+      from: 'Mar 2019',
+      to: 'Sept 2020',
+    },
+    {
+      company: 'Self Employed',
+      position: 'Freelance Web Developer',
+      from: 'Jan 2016',
+      to: 'Sept 2021',
     },
   ],
   /* certifications: [
@@ -70,46 +81,41 @@ const config = {
   ], */
   education: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
-    },
-    {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
-    },
+      institution: 'El Camino College',
+      degree: 'AA Computer Science',
+      from: '2016',
+      to: '2018',
+    }
   ],
 
   // To hide the `My Projects` section, keep it empty.
+  //  {TODO : Thumbnail for project} 
+
   externalProjects: [
     {
-      title: 'Project Name',
+      title: 'Pokedex95',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+        'Original 151 Pokémon with styling inspired by Windows 95',
       imageUrl: 'https://via.placeholder.com/250x250',
       link: 'https://example.com',
     },
-    {
-      title: 'Project Name',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-      imageUrl: 'https://via.placeholder.com/250x250',
-      link: 'https://example.com',
-    },
+    // {
+    //   title: 'Project Name',
+    //   description:
+    //     'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+    //   imageUrl: 'https://via.placeholder.com/250x250',
+    //   link: 'https://example.com',
+    // },
   ],
-
   // Display blog posts from your medium or dev account. (Optional)
-  blog: {
-    source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
-    limit: 2, // How many posts to display. Max is 10.
-  },
-  googleAnalytics: {
-    id: '', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
-  },
+  // blog: {
+  //   source: 'dev', // medium | dev
+  //   username: 'arifszn', // to hide blog section, keep it empty
+  //   limit: 2, // How many posts to display. Max is 10.
+  // },
+  // googleAnalytics: {
+  //   id: '', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
+  // },
   // Track visitor interaction and behavior. https://www.hotjar.com
   hotjar: {
     id: '',
