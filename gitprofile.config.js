@@ -7,7 +7,7 @@ const config = {
     limit: 10, // How many projects to display.
     exclude: {
       forks: true, // Forked projects will not be displayed if set to true.
-      projects: [], // These projects will not be displayed. example: ['my-project1', 'my-project2']
+      projects: ['Pokedex95'], // These projects will not be displayed. example: ['my-project1', 'my-project2']
     },
   },
   social: {
@@ -96,8 +96,8 @@ const config = {
       title: 'Pokedex95',
       description:
         'Original 151 Pokémon with styling inspired by Windows 95',
-      imageUrl: 'https://via.placeholder.com/250x250',
-      link: 'https://example.com',
+      imageUrl: 'https://raw.githubusercontent.com/jpegpink/Pokedex95/master/src/assets/windowslogo.png',
+      link: 'https://jpegpink.github.io/Pokedex95/',
     },
     // {
     //   title: 'Project Name',
