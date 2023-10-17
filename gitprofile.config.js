@@ -11,6 +11,11 @@ const config = {
     },
   },
   social: {
+    linkedin: 'darian-purry',
+    instagram: 'nairad42',
+    email: 'dpurry23@gmail.com',
+    dev: '@nairad42',
+
   },
   resume: {
     fileUrl:
