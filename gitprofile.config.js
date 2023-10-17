@@ -11,10 +11,6 @@ const config = {
     },
   },
   social: {
-    linkedin: 'darian-purry',
-    instagram: 'nairad42',
-    email: 'dpurry23@gmail.com',
-    dev: '@nairad42',
   },
   resume: {
     fileUrl:
@@ -112,7 +108,7 @@ const config = {
     snippetVersion: 6,
   },
   themeConfig: {
-    defaultTheme: 'business',
+    defaultTheme: 'wireframe',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
@@ -170,6 +166,13 @@ const config = {
       '--rounded-btn': '3rem',
     },
   },
+
+  // Optional Footer. Supports plain text or HTML.
+  footer: `Made with <a 
+      class="text-primary" href="https://github.com/arifszn/gitprofile"
+      target="_blank"
+      rel="noreferrer"
+    >GitProfile</a> and ❤️`,
 };
 
 export default config;

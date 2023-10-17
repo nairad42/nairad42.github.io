@@ -50,6 +50,11 @@ export interface Social {
   twitter?: string;
 
   /**
+   * Mastodon
+   */
+  mastodon?: string;
+
+  /**
    * Facebook
    */
   facebook?: string;
@@ -58,6 +63,11 @@ export interface Social {
    * Instagram
    */
   instagram?: string;
+
+  /**
+   * YouTube
+   */
+  youtube?: string;
 
   /**
    * Dribbble
@@ -88,6 +98,16 @@ export interface Social {
    * Website
    */
   website?: string;
+
+  /**
+   * Skype username
+   */
+  skype?: string;
+
+  /**
+   * Telegram username
+   */
+  telegram?: string;
 
   /**
    * Phone
@@ -299,6 +319,11 @@ export interface Config {
    * Theme config
    */
   themeConfig?: ThemeConfig;
+
+  /**
+   * Custom footer
+   */
+  footer?: string;
 }
 
 export interface GitProfileProps {

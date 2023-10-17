@@ -1,8 +1,8 @@
-import { Fragment } from 'react';
-import { AiOutlineStar, AiOutlineFork } from 'react-icons/ai';
 import PropTypes from 'prop-types';
-import { ga, languageColor, skeleton } from '../../helpers/utils';
+import { Fragment } from 'react';
+import { AiOutlineFork, AiOutlineStar } from 'react-icons/ai';
 import { MdInsertLink } from 'react-icons/md';
+import { ga, languageColor, skeleton } from '../../helpers/utils';
 
 const Project = ({ repo, loading, github, googleAnalytics }) => {
   if (!loading && Array.isArray(repo) && repo.length === 0) {
@@ -89,14 +89,14 @@ const Project = ({ repo, loading, github, googleAnalytics }) => {
             <div className="flex items-center">
               <div className="card-title text-lg tracking-wide flex text-base-content opacity-60">
                 <MdInsertLink className="my-auto" />
-                <span className="capitalize">{item.name}</span>
+                <span>{item.name}</span>
               </div>
             </div>
             <p className="mb-5 mt-1 text-base-content text-opacity-60 text-sm">
               {item.description}
             </p>
           </div>
-          <div className="flex justify-between text-sm text-base-content text-opacity-60">
+          <div className="flex justify-between text-sm text-base-content text-opacity-60 truncate">
             <div className="flex flex-grow">
               <span className="mr-3 flex items-center">
                 <AiOutlineStar className="mr-0.5" />
@@ -146,7 +146,7 @@ const Project = ({ repo, loading, github, googleAnalytics }) => {
                       href={`https://github.com/${github.username}?tab=repositories`}
                       target="_blank"
                       rel="noreferrer"
-                      className="text-base-content opacity-50"
+                      className="text-base-content opacity-50 hover:underline"
                     >
                       See All
                     </a>

@@ -11,6 +11,7 @@ import Certification from './certification';
 import Education from './education';
 import Project from './project';
 import Blog from './blog';
+import Footer from './footer';
 import {
   genericError,
   getInitialTheme,
@@ -239,16 +240,23 @@ GitProfile.propTypes = {
     social: PropTypes.shape({
       linkedin: PropTypes.string,
       twitter: PropTypes.string,
+      mastodon: PropTypes.string,
       facebook: PropTypes.string,
       instagram: PropTypes.string,
+      youtube: PropTypes.string,
       dribbble: PropTypes.string,
       behance: PropTypes.string,
       medium: PropTypes.string,
       dev: PropTypes.string,
       stackoverflow: PropTypes.string,
       website: PropTypes.string,
+      skype: PropTypes.string,
+      telegram: PropTypes.string,
       phone: PropTypes.string,
       email: PropTypes.string,
+    }),
+    resume: PropTypes.shape({
+      fileUrl: PropTypes.string,
     }),
     skills: PropTypes.array,
     externalProjects: PropTypes.arrayOf(
@@ -311,6 +319,7 @@ GitProfile.propTypes = {
         '--rounded-btn': PropTypes.string,
       }),
     }),
+    footer: PropTypes.string,
   }).isRequired,
 };
 
