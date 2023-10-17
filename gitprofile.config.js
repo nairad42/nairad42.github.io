@@ -15,7 +15,6 @@ const config = {
     instagram: 'nairad42',
     email: 'dpurry23@gmail.com',
     dev: '@nairad42',
-
   },
   resume: {
     fileUrl:
@@ -104,9 +103,9 @@ const config = {
     username: 'nairad42', // to hide blog section, keep it empty
     limit: 10, // How many posts to display. Max is 10.
   },
-   googleAnalytics: {
-     id: 'G-61V9VWZEVJ', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
-  // },
+  googleAnalytics: {
+    id: 'G-61V9VWZEVJ', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
+  },
   // Track visitor interaction and behavior. https://www.hotjar.com
   hotjar: {
     id: '',
