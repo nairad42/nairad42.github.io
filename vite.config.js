@@ -21,9 +21,9 @@ export default defineConfig({
       },
       includeAssets: ['logo.png'],
       manifest: {
-        name: 'Darian Purry | Nairad42',
-        short_name: 'Darian Purry | Nairad42',
-        description: 'Darian Purry | Nairad42',
+        name: 'Portfolio',
+        short_name: 'Portfolio',
+        description: 'Personal Portfolio',
         icons: [
           {
             src: 'logo.png',
