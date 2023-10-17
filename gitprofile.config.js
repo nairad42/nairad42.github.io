@@ -2,24 +2,23 @@
 
 const config = {
   github: {
-    username: 'jpegpink', // Your GitHub org/user name. (Required)
+    username: 'nairad42', // Your GitHub org/user name. (Required)
     sortBy: 'stars', // stars | updated
     limit: 10, // How many projects to display.
     exclude: {
       forks: true, // Forked projects will not be displayed if set to true.
-      projects: ['Pokedex95'], // These projects will not be displayed. example: ['my-project1', 'my-project2']
+      // projects: ['Pokedex95'], // These projects will not be displayed. example: ['my-project1', 'my-project2']
     },
   },
   social: {
     linkedin: 'darian-purry',
-    twitter: 'jpegpinkk',
-    instagram: 'nairadjs',
-    phone: '3108484799',
+    instagram: 'nairad42',
     email: 'dpurry23@gmail.com',
+    dev: '@nairad42',
   },
   resume: {
     fileUrl:
-      'https://drive.google.com/file/d/13DeLSrOsq0SLZUPmSN5_F09-wlgP1cKb/view?usp=share_link', // Empty fileUrl will hide the `Download Resume` button.
+      'https://drive.google.com/file/d/1yaglUO5JMJpvD105U2dROBq2BOfs8QDL/view?usp=drive_link', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'Elixir',
@@ -27,30 +26,22 @@ const config = {
     'JavaScript',
     'React.js',
     'Node.js',
-    'MySQL',
+    'Kubernetes',
     'PostgreSQL',
-    'Git',
+    'Google Cloud Platform',
+    'Next.js',
+    'Docker',
     'Angular',
     'Electron',
     'Express',
+    'CSS',
   ],
   experiences: [
     {
       company: 'Vendorful',
       position: 'Software Engineer',
-      from: 'Jan 2021',
-      to: 'Jan 2022',
-    },
-    {
-      company: 'Vendorful',
-      position: 'Support Engineer',
       from: 'Nov 2021',
-      to: 'Jan 2022',
-    },{
-      company: 'Believable Creations',
-      position: 'Software Engineer',
-      from: 'Mar 2019',
-      to: 'Sept 2020',
+      to: 'May 2023',
     },
     {
       company: 'Believable Creations',
@@ -82,22 +73,21 @@ const config = {
   education: [
     {
       institution: 'El Camino College',
-      degree: 'AA Computer Science',
       from: '2016',
-      to: '2018',
-    }
+      to: '2020',
+    },
   ],
 
   // To hide the `My Projects` section, keep it empty.
-  //  {TODO : Thumbnail for project} 
+  //  {TODO : Thumbnail for project}
 
   externalProjects: [
     {
       title: 'Pokedex95',
-      description:
-        'Original 151 Pokémon with styling inspired by Windows 95',
-      imageUrl: 'https://raw.githubusercontent.com/jpegpink/Pokedex95/master/src/assets/windowslogo.png',
-      link: 'https://jpegpink.github.io/Pokedex95/',
+      description: 'Original 151 Pokémon with styling inspired by Windows 95',
+      imageUrl:
+        'https://raw.githubusercontent.com/nairad42/Pokedex95/master/src/assets/windowslogo.png',
+      link: 'https://nairad42.github.io/Pokedex95/',
     },
     // {
     //   title: 'Project Name',
@@ -108,12 +98,12 @@ const config = {
     // },
   ],
   // Display blog posts from your medium or dev account. (Optional)
-  // blog: {
-  //   source: 'dev', // medium | dev
-  //   username: 'arifszn', // to hide blog section, keep it empty
-  //   limit: 2, // How many posts to display. Max is 10.
-  // },
-  // googleAnalytics: {
+  blog: {
+    source: 'dev', // medium | dev
+    username: 'nairad42', // to hide blog section, keep it empty
+    limit: 10, // How many posts to display. Max is 10.
+  },
+  // googleAn`alytics: {
   //   id: '', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
   // },
   // Track visitor interaction and behavior. https://www.hotjar.com
