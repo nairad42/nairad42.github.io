@@ -18,7 +18,7 @@ const config = {
   },
   resume: {
     fileUrl:
-      'https://drive.google.com/file/d/1yaglUO5JMJpvD105U2dROBq2BOfs8QDL/view?usp=drive_link', // Empty fileUrl will hide the `Download Resume` button.
+      'https://drive.google.com/file/d/1WMcSfzFeziT4PQyz8VqoiSDZFCX34ily/view?usp=sharing', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'Elixir',
