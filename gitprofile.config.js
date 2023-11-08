@@ -62,14 +62,6 @@ const config = {
       to: 'Sept 2021',
     },
   ],
-  /* certifications: [
-    {
-      name: 'Lorem ipsum',
-      body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
-      link: 'https://example.com'
-    },
-  ], */
   education: [
     {
       institution: 'El Camino College',
